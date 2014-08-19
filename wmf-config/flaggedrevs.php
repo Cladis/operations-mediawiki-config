@@ -44,7 +44,7 @@ if ( $wgDBname == 'alswiki' ) {
 }
 
 elseif ( $wgDBname == 'arwiki' ) {
-	$wgFlaggedRevsWhitelist = array( 'الص�?حة_الرئيسية' );
+	$wgFlaggedRevsWhitelist = array( 'الص�?حة_الرئيسية' );
 	$wgFlaggedRevsNamespaces = array_merge( $wgFlaggedRevsNamespaces, array( 100, 104 ) ); // bug 19332
 }
 
